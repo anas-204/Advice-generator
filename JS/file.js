@@ -8,3 +8,4 @@ async function getIdea() {
   advice.innerHTML = data.slip.advice;
   adviceNum.innerHTML = data.slip.id;
 }
+getIdea();
